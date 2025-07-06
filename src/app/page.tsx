@@ -1,5 +1,6 @@
 import Features from "@/components/feautures-1";
 import Footer from "@/components/footer";
+import FrequentlyAskedQuestions from "@/components/frequently-asked-questions";
 import HeroSection from "@/components/hero-section";
 import HowToSave from "@/components/how-to-save";
 import StartInvesting from "@/components/start-investing";
@@ -9,10 +10,12 @@ export default function Home() {
     <div className="">
       <HeroSection />
       <Features />
-      <HowToSave/>
-      <StartInvesting/>
-      <div className="h-[184px]"/>
-      <Footer/>
+      <HowToSave />
+      <div className="h-[184px]" />
+      <FrequentlyAskedQuestions />
+      <StartInvesting />
+      <div className="h-[184px]" />
+      <Footer />
     </div>
   );
 }
