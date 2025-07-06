@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const figTree = Figtree({
   variable: "--font-fig-tree",
   subsets: ["latin"],
 });
+
+const calSans = localFont({
+  src: "../../public/fonts/CalSans-Regular.ttf",
+  variable: "--font-cal-sans",
+});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${figTree.variable}  antialiased`}>{children}</body>
+      <body className={`${figTree.variable} ${calSans.variable} antialiased`}>{children}</body>
     </html>
   );
 }

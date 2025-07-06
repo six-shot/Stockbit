@@ -18,7 +18,7 @@ export const HeroHeader = () => {
   const pathname = usePathname();
 
   return (
-    <header className="flex justify-center">
+    <header className="flex justify-center font-[family-name:var(--font-fig-tree)]">
       <nav
         data-state={menuState && "active"}
         className="bg-white border border-[#F2F3FB] fixed top-[40px] z-20 rounded-3xl md:w-[864px] h-[76px]  backdrop-blur-3xl"
@@ -83,7 +83,7 @@ export const HeroHeader = () => {
                   ))}
                 </ul>
               </div>
-              <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
+              <div className="">
                 <Button asChild variant="outline" size="sm">
                   <Link href="#">
                     <span>Get Started</span>
