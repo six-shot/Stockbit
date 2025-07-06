@@ -10,10 +10,10 @@ export default function HeroSection() {
   return (
     <div className=" w-full  ">
       <HeroHeader />
-      <section className="bg-[#F5F7FD] relative h-[982px]">
+      <section className="bg-[#F5F7FD] relative h-[937px] w-full flex items-center">
         <video
           src="hero.mp4"
-          className=" h-full object-contain absolute right-0 z-10"
+          className="absolute right-0 top-0 h-full w-1/2 object-cover z-10"
           autoPlay
           loop
           muted
@@ -22,7 +22,7 @@ export default function HeroSection() {
           disablePictureInPicture
           preload="metadata"
         />
-        <div className="max-w-[1440px] mx-auto flex flex-col justify-center w-full h-full ">
+        <div className="max-w-[1440px] mx-auto flex flex-col justify-center w-full h-full z-20 relative">
           <h1 className="text-[80px] leading-20 font-[family-name:var(--font-cal-sans)]">
             Bridging <span className="uppercase">rwa</span>
             <br /> to finance

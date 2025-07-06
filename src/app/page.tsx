@@ -1,6 +1,7 @@
 import Features from "@/components/feautures-1";
 import HeroSection from "@/components/hero-section";
 import HowToSave from "@/components/how-to-save";
+import StartInvesting from "@/components/start-investing";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <Features />
       <HowToSave/>
+      <StartInvesting/>
     </div>
   );
 }
