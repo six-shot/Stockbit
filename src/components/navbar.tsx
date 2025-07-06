@@ -21,7 +21,7 @@ export const HeroHeader = () => {
     <header className="flex justify-center font-[family-name:var(--font-fig-tree)]">
       <nav
         data-state={menuState && "active"}
-        className="bg-white border border-[#F2F3FB] fixed top-[40px] z-20 rounded-3xl md:w-[864px] h-[76px]  backdrop-blur-3xl"
+        className="bg-white border border-[#F2F3FB] fixed top-[40px] z-50 rounded-3xl md:w-[864px] h-[76px]  backdrop-blur-3xl"
       >
         <div className="mx-auto max-w-[1440px] px-5 transition-all duration-300">
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
