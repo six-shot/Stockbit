@@ -16,7 +16,7 @@ export default function Home() {
       <div className="h-[184px]" />
       <FrequentlyAskedQuestions />
       <StartInvesting />
-      <div className="h-[184px]" />
+      <div className="h-[32px]" />
       <Footer />
     </div>
   );
