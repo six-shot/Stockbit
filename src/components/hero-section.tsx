@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <div className=" w-full  ">
       <HeroHeader />
-      <section className="bg-[#F5F7FD] relative h-[937px] w-full flex items-center">
+      <section className="bg-[#F5F7FD] relative h-[937px] px-20 w-full flex items-center">
         <video
           src="hero.mp4"
           className="absolute right-0 top-0 h-full w-1/2 object-cover z-10"

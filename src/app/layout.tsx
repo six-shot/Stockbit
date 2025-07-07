@@ -12,7 +12,14 @@ const calSans = localFont({
   src: "../../public/fonts/CalSans-Regular.ttf",
   variable: "--font-cal-sans",
 });
-
+const generalSans = localFont({
+  src: "../../public/fonts/GeneralSans-Medium.ttf",
+  variable: "--font-general-sans",
+});
+const neue = localFont({
+  src: "../../public/fonts/ppneuemontreal-medium.otf",
+  variable: "--font-neue",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${figTree.variable} ${calSans.variable} antialiased`}>{children}</body>
+      <body className={`${figTree.variable} ${calSans.variable} ${generalSans.variable} ${neue.variable} antialiased`}>{children}</body>
     </html>
   );
 }

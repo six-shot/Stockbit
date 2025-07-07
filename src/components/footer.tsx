@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="w-full h-[136px] border-t border-[#EAECF0] font-[family-name:var(--font-fig-tree)] ">
+    <div className="w-full h-[136px] border-t border-[#EAECF0] font-[family-name:var(--font-fig-tree)] px-10">
       <div className="mx-auto max-w-[1440px] px-5 transition-all duration-300 flex justify-between items-center h-full">
         <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
           <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
