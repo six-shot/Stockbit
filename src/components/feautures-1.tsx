@@ -7,7 +7,7 @@ export default function Features() {
     <section className="py-24 font-[family-name:var(--font-fig-tree)]">
       <div className="@container mx-auto max-w-[1440px] px-[108px]">
         <div className="text-center">
-          <h2 className="text-balance text-4xl font-[family-name:var(--font-cal-sans)] lg:text-5xl tracking-[-0.64px] [text-shadow:0px_12.096px_90.72px_rgba(152,152,152,0)]">
+          <h2 className="text-balance text-4xl font-[family-name:var(--font-cal-sans)] lg:text-[64px] tracking-[-0.64px] [text-shadow:0px_12.096px_90.72px_rgba(152,152,152,0)]">
             Proven & Reliable
           </h2>
         </div>
