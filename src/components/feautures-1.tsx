@@ -26,7 +26,7 @@ export default function Features() {
               <p className="text-[#0E121B] text-sm font-medium">
                 Total Rewards
               </p>
-              <p className="text-sm  text-[#525866] text-nowrap">
+              <p className="text-sm  text-[#525866] ">
                 Rewards to be distrubted
               </p>
             </CardContent>
@@ -45,7 +45,7 @@ export default function Features() {
 
             <CardContent className="mt-1.5">
               <p className="text-[#0E121B] text-sm font-medium">Users</p>
-              <p className="text-sm  text-[#525866] text-nowrap">
+              <p className="text-sm  text-[#525866] ">
                 People who use and trust stockbits
               </p>
             </CardContent>
