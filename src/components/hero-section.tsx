@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <div className=" w-full  ">
       <HeroHeader />
-      <section className=" relative md:h-[937px] md:px-[60px] md:mt-0 mt-[76px] w-full flex items-center bg-[#F5F7FD] pb-[64px]">
+      <section className=" relative md:h-[937px] md:px-[60px] md:mt-0 mt-[72px] w-full flex items-center bg-[#F5F7FD] pb-[64px]">
         <video
           src="hero.mp4"
           className="md:block hidden absolute right-0 top-0 h-full w-1/2 object-cover z-10"
