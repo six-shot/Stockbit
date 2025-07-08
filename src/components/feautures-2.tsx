@@ -14,7 +14,7 @@ export default function Feautures2() {
           <div>
             <div className="md:h-[472px] h-[380px]">
               <div className="md:p-10 p-5 border border-[#F5F7FA] bg-[#E1E4EA] rounded-[24px] flex justify-between flex-col">
-                <div className="bg-white md:p-6 p-4 rounded-[16px]">
+                <div className="bg-white border border-[#E1E4EA] md:p-6 p-4 rounded-[16px]">
                   <div className="flex justify-between items-start">
                     <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
                       <Image
@@ -44,7 +44,7 @@ export default function Feautures2() {
                     </p>
                   </div>
                 </div>
-                <div className="bg-white md:p-6 p-4 rounded-[16px] mt-3">
+                <div className="bg-white border border-[#E1E4EA] md:p-6 p-4 rounded-[16px] mt-3">
                   <div className="flex justify-between items-start">
                     <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
                       <Image
