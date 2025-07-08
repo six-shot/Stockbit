@@ -12,16 +12,17 @@ export default function Feautures2() {
         </h2>
         <div className="pt-[62px] md:grid-cols-3 grid-cols-1 grid  gap-10  items-center">
           <div>
-            <div className="h-[472px]">
-              <div className="p-10 border border-[#F5F7FA] bg-[#E1E4EA] rounded-[24px] flex justify-between flex-col">
-                <div className="bg-white p-6 rounded-[16px]">
+            <div className="md:h-[472px] h-[380px]">
+              <div className="md:p-10 p-5 border border-[#F5F7FA] bg-[#E1E4EA] rounded-[24px] flex justify-between flex-col">
+                <div className="bg-white md:p-6 p-4 rounded-[16px]">
                   <div className="flex justify-between items-start">
-                    <div className="w-[50px] h-[50px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
+                    <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
                       <Image
                         src="dollar.svg"
                         alt="dollar"
                         width={27}
                         height={27}
+                        className="md:w-[27px] h-[16px] md:h-[27px] w-[16px]"
                       />
                     </div>
                     <div className="px-1 h-[22px] bg-[#F0FDF4] rounded-[16px] flex items-center gap-[2px]">
@@ -32,25 +33,26 @@ export default function Feautures2() {
                     </div>
                   </div>
 
-                  <div className="mt-[18px]">
+                  <div className="md:mt-[18px] mt-[14px]">
                     <div>
-                      <h5 className="text-[#0E121B] leading-[48px] font-[family-name:var(--font-cal-sans)] text-[24px]">
+                      <h5 className="text-[#0E121B] leading-[48px] font-[family-name:var(--font-cal-sans)] md:text-[24px] text-[20px]">
                         $2.4T
                       </h5>
                     </div>
-                    <p className="text-[#525866] text-[16px] font-medium font-[family-name:var(--font-fig-tree)]">
+                    <p className="text-[#525866] md:text-[16px] text-sm font-medium font-[family-name:var(--font-fig-tree)]">
                       Total Market Cap
                     </p>
                   </div>
                 </div>
-                <div className="bg-white p-6 rounded-[16px] mt-3">
+                <div className="bg-white md:p-6 p-4 rounded-[16px] mt-3">
                   <div className="flex justify-between items-start">
-                    <div className="w-[50px] h-[50px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
+                    <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
                       <Image
                         src="dollar.svg"
                         alt="dollar"
                         width={27}
                         height={27}
+                        className="md:w-[27px] h-[16px] md:h-[27px] w-[16px]"
                       />
                     </div>
                     <div className="px-1 h-[22px] bg-[#F0FDF4] rounded-[16px] flex items-center gap-[2px]">
@@ -63,11 +65,11 @@ export default function Feautures2() {
 
                   <div className="mt-[18px]">
                     <div>
-                      <h5 className="text-[#0E121B] leading-[48px] font-[family-name:var(--font-cal-sans)] text-[24px]">
+                      <h5 className="text-[#0E121B] leading-[48px] font-[family-name:var(--font-cal-sans)] md:text-[24px] text-[20px]">
                         1,247
                       </h5>
                     </div>
-                    <p className="text-[#525866] text-[16px] font-medium font-[family-name:var(--font-fig-tree)]">
+                    <p className="text-[#525866] md:text-[16px] text-sm font-medium font-[family-name:var(--font-fig-tree)]">
                       Active products
                     </p>
                   </div>
@@ -75,10 +77,10 @@ export default function Feautures2() {
               </div>
             </div>
             <div>
-              <h4 className="text-[24px] text-[#0E121B] font-semibold mt-4">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-semibold mt-4">
                 Permissionless Trading, 24/7
               </h4>
-              <p className="text-[#525866] mt-2">
+              <p className="text-[#525866] md:text-base text-sm mt-2">
                 Experience true financial freedom by trading shares of
                 companies, properties, or bonds anytime, anywhere.{" "}
               </p>
@@ -87,10 +89,10 @@ export default function Feautures2() {
           <div>
             <StockCard />
             <div className="mt-4">
-              <h4 className="text-[24px] text-[#0E121B] font-semibold">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-semibold mt-4">
                 Fully On-Chain
               </h4>
-              <p className="text-[#525866] mt-2">
+              <p className="text-[#525866] md:text-base text-sm mt-2">
                 By keeping everything on-chain, we guarantee transparency,
                 immutability, and trust in every transaction.
               </p>
@@ -99,10 +101,10 @@ export default function Feautures2() {
           <div className="">
             <SwapWidget />
             <div className="mt-4">
-              <h4 className="text-[24px] text-[#0E121B] font-semibold">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-semibold mt-4">
                 USDX is a high yield savings
               </h4>
-              <p className="text-[#525866] mt-2">
+              <p className="text-[#525866] md:text-base text-sm mt-2">
                 The company behind USDT makes $20B per year. USDX is a
                 stablecoin just like USDT, but the profits are distributed back
                 to the users.
@@ -110,7 +112,6 @@ export default function Feautures2() {
             </div>
           </div>
         </div>
-       
       </div>
     </div>
   );

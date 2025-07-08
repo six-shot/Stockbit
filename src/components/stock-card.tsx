@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const StockCard = () => {
   return (
-    <div className="w-full  border border-[#F5F7FA]  bg-[#E1E4EA] rounded-[24px]  p-10 h-[472px]">
+    <div className="w-full  border border-[#F5F7FA]  bg-[#E1E4EA] rounded-[24px]  md:p-10 p-5 h-[472px]">
       {/* Header with chart background */}
       <div className="relative bg-gradient-to-br from-blue-900 to-blue-800 h-[67px] p-4 rounded-t-[16px]"></div>
 
       {/* Stock info section */}
-      <div className="p-[17px]  rounded-[16px] bg-white -mt-2 relative z-[20]">
+      <div className="md:p-[17px] p-[14px]  rounded-[16px] bg-white -mt-2 relative z-[20]">
         {/* Stock symbol and name */}
         <div className="flex items-start gap-2 mb-[11px]">
           <div className="w-10 h-10 bg-[#335CFF] rounded-xl flex items-center justify-center">
@@ -27,7 +27,7 @@ const StockCard = () => {
         {/* Price and change */}
         <div className="mb-6">
           <div className="flex justify-between items-center">
-            <div className="text-[25px] font-bold text-[#0E121B]">$175.43</div>
+            <div className="md:text-[25px] text-[20px] font-bold text-[#0E121B]">$175.43</div>
             <div className="ml-auto">
               <span className="text-[10px] text-[#3559E9] bg-[#EBF1FF] px-2 py-1.5 rounded-full font-medium">
                 STOCKS
@@ -43,7 +43,7 @@ const StockCard = () => {
         </div>
 
         {/* Market stats */}
-        <div className="grid grid-cols-2 gap-[9px] mt-[11px]">
+        <div className="grid grid-cols-2 gap-[9px] md:mt-[11px] mt-2">
           <div className="h-[56px] border border-[#E1E4EA] rounded-[11px] p-2 flex i flex-col font-[family-name:var(--font-fig-tree)] ">
             <div className="text-[10px] text-[525866] mb-[3px]">Market Cap</div>
             <div className="text-[17px] font-bold text-[#0E121B]">$2.8T</div>
@@ -77,7 +77,7 @@ const StockCard = () => {
             size="icon"
             className="w-12 h-10 rounded-[11px] border border-gray-200 hover:bg-gray-50 flex justify-center items-center"
           >
-          <Image src="star.svg" alt="star" width={14} height={14}/>
+            <Image src="star.svg" alt="star" width={14} height={14} />
           </Button>
         </div>
       </div>

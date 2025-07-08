@@ -56,8 +56,8 @@ const SwapWidget = () => {
   };
 
   return (
-    <div className="  border border-[#F5F7FA] h-[472px] bg-[#E1E4EA] rounded-[24px]  p-10">
-      <div className="p-[15px] bg-white border border-white/10 rounded-[7px] h-full flex justify-between flex-col">
+    <div className="  border border-[#F5F7FA] h-[472px] bg-[#E1E4EA] rounded-[24px]  md:p-10 p-5">
+      <div className="md:p-[15px]  p-[13px] bg-white border border-white/10 rounded-[7px] h-full flex justify-between flex-col">
         <div>
           <div className="flex items-center justify-between ">
             <h2 className="text-[15px] font-semibold text-[#101828] font-[family-name:var(--font-neue)] ">
