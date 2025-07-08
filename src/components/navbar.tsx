@@ -21,10 +21,10 @@ export const HeroHeader = () => {
     <header className="flex justify-center font-[family-name:var(--font-fig-tree)]">
       <nav
         data-state={menuState && "active"}
-        className="md:bg-white border-b  border-[#E1E4EA] md:border-[#F2F3FB] fixed md:top-[40px] w-full md:border  z-50 md:rounded-3xl md:w-[864px]  md:h-[76px] h-[72px] backdrop-blur-3xl 0  md:mx-auto"
+        className="md:bg-white border-b  border-[#E1E4EA] md:border-[#F2F3FB] fixed md:top-[40px]  md:border flex items-center w-full z-50 md:rounded-3xl md:w-[864px]  md:h-[76px] h-[72px] backdrop-blur-3xl 0  md:mx-auto"
       >
-        <div className="mx-auto max-w-[1440px] px-5 transition-all duration-300">
-          <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
+        <div className="mx-auto max-w-[1440px] px-5 transition-all duration-300 flex justify-between w-full">
+          <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4  w-full">
             <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
               <Link
                 href="/"
@@ -40,7 +40,7 @@ export const HeroHeader = () => {
               <button
                 onClick={() => setMenuState(!menuState)}
                 aria-label={menuState == true ? "Close Menu" : "Open Menu"}
-                className="relative z-20 -m-2.5 -mr-4 block cursor-pointer p-2.5 lg:hidden"
+                className="relative z-20  block cursor-pointer  lg:hidden"
               >
                 <Menu className="in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto size-6 duration-200" />
                 <X className="in-data-[state=active]:rotate-0 in-data-[state=active]:scale-100 in-data-[state=active]:opacity-100 absolute inset-0 m-auto size-6 -rotate-180 scale-0 opacity-0 duration-200" />
