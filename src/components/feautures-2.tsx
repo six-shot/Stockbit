@@ -5,7 +5,7 @@ import StockCard from "./stock-card";
 
 export default function Feautures2() {
   return (
-    <div className="md:pt-[98px] pt-[48px] md:pb-[246px] pb-[100px] md:px-10 px-5">
+    <div className="md:pt-[98px] pt-[48px] md:pb-[246px] pb-[100px] md:px-[60px] px-5">
       <div className="max-w-[1440px] mx-auto">
         <h2 className="text-balance text-center text-4xl font-[family-name:var(--font-cal-sans)] lg:text-[64px] tracking-[-0.64px] [text-shadow:0px_12.096px_90.72px_rgba(152,152,152,0)]">
           Bonds. Stocks. <br className="md:block hidden " /> Properties.

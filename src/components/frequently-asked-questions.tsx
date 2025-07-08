@@ -29,7 +29,7 @@ export default function FrequentlyAskedQuestions() {
 
   return (
     <div>
-      <div className="max-w-[1440px] mx-auto  md:pt-[96px] pt-[38px] md:pb-[256px] pb-[50px] md:px-10 px-5">
+      <div className="max-w-[1440px] mx-auto  md:pt-[96px] pt-[38px] md:pb-[256px] pb-[50px] md:px-[60px] px-5">
         <div className="flex  justify-start  items-center ">
           <h2 className="text-[#0E121B] md:text-[72px] text-[36px] tracking-[-1.44px] md:leading-[90px] leading-[50px] font-[family-name:var(--font-cal-sans)]  ">
             Frequently <br /> asked questions

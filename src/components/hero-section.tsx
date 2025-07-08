@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <div className=" w-full  ">
       <HeroHeader />
-      <section className=" relative md:h-[937px] md:px-20 md:mt-0 mt-[76px] w-full flex items-center bg-[#F5F7FD] pb-[64px]">
+      <section className=" relative md:h-[937px] md:px-[60px] md:mt-0 mt-[76px] w-full flex items-center bg-[#F5F7FD] pb-[64px]">
         <video
           src="hero.mp4"
           className="md:block hidden absolute right-0 top-0 h-full w-1/2 object-cover z-10"
@@ -22,7 +22,7 @@ export default function HeroSection() {
           disablePictureInPicture
           preload="metadata"
         />
-        <div className="max-w-[1440px] mx-auto flex flex-col md:pt-0 pt-[64px] md:justify-center md:items-start items-center w-full h-full z-20 relative px-5">
+        <div className="max-w-[1440px] mx-auto flex flex-col md:pt-0 pt-[64px] md:justify-center md:items-start items-center w-full h-full z-20 relative md:px-0 px-5">
           <h1 className="md:text-[80px] text-[36px] md:leading-20 leading-[36px] font-[family-name:var(--font-cal-sans)] md:text-left text-center">
             Bridging <span className="uppercase">rwa</span>
             <br /> to Finance
