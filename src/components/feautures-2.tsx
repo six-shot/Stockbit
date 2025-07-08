@@ -77,7 +77,7 @@ export default function Feautures2() {
               </div>
             </div>
             <div>
-              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-medium mt-4 font-[family-name:var(--font-cal-sans)]">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B]  mt-4 font-[family-name:var(--font-cal-sans)]">
                 Permissionless Trading, 24/7
               </h4>
               <p className="text-[#525866] md:text-base text-sm mt-2 font-[family-name:var(--font-fig-tree)]">
@@ -89,7 +89,7 @@ export default function Feautures2() {
           <div>
             <StockCard />
             <div className="mt-4">
-              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-medium mt-4 font-[family-name:var(--font-cal-sans)]">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B]  mt-4 font-[family-name:var(--font-cal-sans)]">
                 Fully On-Chain
               </h4>
               <p className="text-[#525866] md:text-base text-sm mt-2  font-[family-name:var(--font-fig-tree)]">
@@ -101,7 +101,7 @@ export default function Feautures2() {
           <div className="">
             <SwapWidget />
             <div className="mt-4">
-              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-medium mt-4 font-[family-name:var(--font-cal-sans)]">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B]  mt-4 font-[family-name:var(--font-cal-sans)]">
                 USDX is a high yield savings
               </h4>
               <p className="text-[#525866] md:text-base text-sm mt-2 font-[family-name:var(--font-fig-tree)]">
