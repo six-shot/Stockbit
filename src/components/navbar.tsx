@@ -23,7 +23,7 @@ export const HeroHeader = () => {
         data-state={menuState && "active"}
         className="md:bg-white border-b  border-[#E1E4EA] md:border-[#F2F3FB] fixed md:top-[40px] w-full md:border  z-50 md:rounded-3xl md:w-[864px]  md:h-[76px] h-[72px] backdrop-blur-3xl 0  md:mx-auto"
       >
-        <div className="mx-auto max-w-[1440px] px-5 transition-all duration-300 mt-1">
+        <div className="mx-auto max-w-[1440px] px-5 transition-all duration-300">
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
             <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
               <Link

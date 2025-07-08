@@ -1,21 +1,21 @@
-import Image from 'next/image';
-import React from 'react'
-import { Button } from './ui/button';
-import Link from 'next/link';
+import Image from "next/image";
+import React from "react";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function StartInvesting() {
   return (
     <div className="px-5 mt-2.5 relative">
-      <div className="absolute top-[135px] left-[203px] z-[100]">
-        <div className="bg-white border border-[#E1E4EA] md:p-6 p-4 rounded-[16px] w-[253px]">
+      <div className="absolute md:top-[135px] bottom-[10px] md:left-[203px] left-[20px] md:z-[100] z-[2]  ">
+        <div className="bg-white border border-[#E1E4EA] md:p-6 p-3 rounded-[16px] md:w-[253px] w-[150px]">
           <div className="flex justify-between items-start">
-            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
+            <div className="md:w-[50px] w-[30px] md:h-[50px] h-[30px] bg-[#EBF1FF] borrder border-[#D5E2FF] rounded-[9px] flex justify-center items-center">
               <Image
                 src="chart.svg"
                 alt="chart"
                 width={27}
                 height={27}
-                className="md:w-[27px] h-[16px] md:h-[27px] w-[16px]"
+                className="md:w-[27px] h-[12px] md:h-[27px] w-[12px]"
               />
             </div>
             <div className="px-1 h-[22px] bg-[#F0FDF4] rounded-[16px] flex items-center gap-[2px]">
@@ -26,19 +26,19 @@ export default function StartInvesting() {
             </div>
           </div>
 
-          <div className="md:mt-[18px] mt-[14px]">
+          <div className="md:mt-[18px] mt-[10px]">
             <div>
-              <h5 className="text-[#0E121B] leading-[48px] font-[family-name:var(--font-cal-sans)] md:text-[24px] text-[20px]">
-             1247
+              <h5 className="text-[#0E121B] leading-[48px] font-[family-name:var(--font-cal-sans)] md:text-[24px] text-[13px]">
+                1247
               </h5>
             </div>
-            <p className="text-[#525866] md:text-[16px] text-sm font-medium font-[family-name:var(--font-fig-tree)]">
-          Active products
+            <p className="text-[#525866] md:text-[16px] text-xs font-medium font-[family-name:var(--font-fig-tree)]">
+              Active products
             </p>
           </div>
         </div>
       </div>
-      <div className="bg-[#F5F4FC] rounded-[24px] border-[3px] border-[rgba(71,108,255,0.02)] md:py-[151px] py-[50px] flex flex-col justify-center items-center relative overflow-hidden md:px-0 px-5">
+      <div className="z-10 bg-[#F5F4FC] rounded-[24px] border-[3px] border-[rgba(71,108,255,0.02)] md:py-[151px] py-[50px] flex flex-col justify-center items-center relative overflow-hidden md:px-0 px-5">
         <Image
           src="invest.svg"
           alt="invest.svg"
