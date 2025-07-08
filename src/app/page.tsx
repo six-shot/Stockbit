@@ -11,13 +11,14 @@ export default function Home() {
     <div className="">
       <HeroSection />
       <Features />
-      <Feautures2/>
+      <Feautures2 />
       <HowToSave />
-      <div className="h-[184px]" />
+      <div className="md:h-[184px] h-[70px]" />
       <FrequentlyAskedQuestions />
       <StartInvesting />
       <div className="h-[32px]" />
       <Footer />
+    
     </div>
   );
 }

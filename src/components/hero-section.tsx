@@ -10,10 +10,10 @@ export default function HeroSection() {
   return (
     <div className=" w-full  ">
       <HeroHeader />
-      <section className="bg-[#F5F7FD] relative h-[937px] px-20 w-full flex items-center">
+      <section className=" relative md:h-[937px] md:px-20 md:mt-0 mt-[76px] w-full flex items-center bg-[#F5F7FD]">
         <video
           src="hero.mp4"
-          className="absolute right-0 top-0 h-full w-1/2 object-cover z-10"
+          className="md:block hidden absolute right-0 top-0 h-full w-1/2 object-cover z-10"
           autoPlay
           loop
           muted
@@ -22,18 +22,18 @@ export default function HeroSection() {
           disablePictureInPicture
           preload="metadata"
         />
-        <div className="max-w-[1440px] mx-auto flex flex-col justify-center w-full h-full z-20 relative">
-          <h1 className="text-[80px] leading-20 font-[family-name:var(--font-cal-sans)]">
+        <div className="max-w-[1440px] mx-auto flex flex-col md:pt-0 pt-[64px] md:justify-center md:items-start items-center w-full h-full z-20 relative px-5">
+          <h1 className="md:text-[80px] text-[36px] md:leading-20 leading-[36px] font-[family-name:var(--font-cal-sans)] md:text-left text-center">
             Bridging <span className="uppercase">rwa</span>
-            <br /> to finance
+            <br /> to Finance
           </h1>
-          <p className="w-[564px] text-[#525866] leading-6 tracking-[0.27px] font-[family-name:var(--font-fig-tree)] text-[18px] mt-4">
+          <p className="md:w-[564px] text-[#525866] leading-6 tracking-[0.27px] font-[family-name:var(--font-fig-tree)] md:text-[18px] text-base mt-4 md:text-left text-center">
             Rockbit makes investing in tokenized stocks and real-world assets
             accessible, secure, and DeFi-native. Built for everyone backed by
             blockchain.
           </p>
 
-          <div className="flex w-full flex-col  sm:flex-row sm:gap-[18px] mt-10">
+          <div className="flex w-full  md:items-start items-center md:justify-start justify-center flex-row gap-[18px] md:mt-10 mt-8">
             <Button asChild variant="default" size="lg">
               <Link href="#">
                 <span>Start investing</span>
@@ -47,9 +47,20 @@ export default function HeroSection() {
           </div>
         </div>
       </section>
-      <section className="py-24 w-full   ">
+      <video
+        src="hero.mp4"
+        className="md:hidden  block  h-full w-full object-cover mt-[64px]"
+        autoPlay
+        loop
+        muted
+        playsInline
+        controls={false}
+        disablePictureInPicture
+        preload="metadata"
+      />
+      <section className="md:py-24  py-12 w-full   ">
         <div className="max-w-[1440px] mx-auto">
-          <div className="group relative  w-full px-8 ">
+          <div className="group relative  w-full md:px-8 px-5">
             <div className="flex flex-col items-center font-[family-name:var(--font-cal-sans)]">
               <p className="text-[#475467] ">Built with</p>
 

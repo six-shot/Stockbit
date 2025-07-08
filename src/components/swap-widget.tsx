@@ -56,7 +56,7 @@ const SwapWidget = () => {
   };
 
   return (
-    <div className="w-full  border border-[#F5F7FA] h-[472px] bg-[#E1E4EA] rounded-[24px]  p-10">
+    <div className="  border border-[#F5F7FA] h-[472px] bg-[#E1E4EA] rounded-[24px]  p-10">
       <div className="p-[15px] bg-white border border-white/10 rounded-[7px] h-full flex justify-between flex-col">
         <div>
           <div className="flex items-center justify-between ">
@@ -86,7 +86,7 @@ const SwapWidget = () => {
                   You’re selling
                 </h5>
 
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between min-w-0">
                   <div className="flex flex-col items-center ">
                     <div>
                       {" "}
@@ -107,7 +107,7 @@ const SwapWidget = () => {
                     type="text"
                     value={fromAmount}
                     onChange={(e) => handleFromAmountChange(e.target.value)}
-                    className="bg-transparent text-right text-[15px] font-semibold text-[#101828]border-none outline-none "
+                    className="bg-transparent text-right text-[15px] font-semibold text-[#101828] border-none outline-none max-w-[100px] w-full"
                     placeholder="0"
                   />
                 </div>
@@ -127,7 +127,6 @@ const SwapWidget = () => {
             </Button>
           </div>
 
-          {/* To Section */}
           <div className="mt-[26px]">
             <div className="bg-[#B1B1B11A]  p-[13px] rounded-[7px] border-2 border-transparent hover:border-gray-200 transition-all duration-200">
               <div>
@@ -135,7 +134,7 @@ const SwapWidget = () => {
                   You’re buyinh
                 </h5>
 
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between min-w-0">
                   <div className="flex flex-col items-center ">
                     <div>
                       {" "}
@@ -156,7 +155,7 @@ const SwapWidget = () => {
                     type="text"
                     value={fromAmount}
                     onChange={(e) => handleToAmountChange(e.target.value)}
-                    className="bg-transparent text-right text-[15px] font-semibold text-[#101828]border-none outline-none "
+                    className="bg-transparent text-right text-[15px] font-semibold text-[#101828] border-none outline-none max-w-[100px] w-full"
                     placeholder="0"
                   />
                 </div>

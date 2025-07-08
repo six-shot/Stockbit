@@ -29,14 +29,14 @@ export default function FrequentlyAskedQuestions() {
 
   return (
     <div>
-      <div className="max-w-[1440px] mx-auto  pt-[96px] pb-[256px] px-10 ">
+      <div className="max-w-[1440px] mx-auto  md:pt-[96px] pt-[38px] md:pb-[256px] pb-[50px] md:px-10 px-5">
         <div className="flex  justify-start  items-center ">
-          <h2 className="text-[#0E121B] text-[72px] tracking-[-1.44px] leading-[90px] font-[family-name:var(--font-cal-sans)]  ">
+          <h2 className="text-[#0E121B] md:text-[72px] text-[36px] tracking-[-1.44px] md:leading-[90px] leading-[50px] font-[family-name:var(--font-cal-sans)]  ">
             Frequently <br /> asked questions
           </h2>
         </div>
 
-        <div className="mt-[64px] flex justify-center relative ">
+        <div className="md:mt-[64px] mt-[28px] flex justify-center relative ">
           <div className="  flex flex-col  w-full gap-4 ">
             {data.map((item, index) => (
               <Accordion
@@ -82,7 +82,7 @@ const Accordion = ({
       {isOpen && <div className="stroke-rectangle is-gradient"></div>}
       <div className=" card-bg border-b border-[#EAECF0]  pt-2.5 ">
         <motion.button className="flex justify-between items-center w-full mb-[24px] ">
-          <span className="text-[18px] text-[#061833] text-left font-medium">
+          <span className="text-[18px] text-[#061833] text-left font-medium md:w-full w-[90%]">
             {title}
           </span>
           <div className="w-6 h-6 border-[2px] border-[#667085] rounded-full flex justify-center items-center">
@@ -129,7 +129,7 @@ const Accordion = ({
               transition={{ duration: 0.3 }}
               className="overflow-hidden"
             >
-              <div className=" text-[16px] text-[#667085] mb-[24px] w-[1264px]  ">
+              <div className=" text-[16px] text-[#667085] mb-[24px] md:w-[1264px]  ">
                 {answer}
               </div>
             </motion.div>
