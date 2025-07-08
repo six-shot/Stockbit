@@ -164,7 +164,7 @@ const SwapWidget = () => {
           </div>
         </div>
 
-        <Button className="w-full" onClick={handleSwap} variant="default">
+        <Button className="w-full rounded-[6.5px]" onClick={handleSwap} variant="default">
           Swap
         </Button>
       </div>

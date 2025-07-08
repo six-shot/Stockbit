@@ -9,3 +9,11 @@
     #335cff;
   box-shadow: 0px 1px 2px 0px rgba(14, 18, 27, 0.24), 0px 0px 0px 1px #335cff;
 }
+.out{
+  border-radius: var(--radius-10, 10px);
+border: 1px solid var(--stroke-soft-200, #E1E4EA);
+background: var(--bg-white-0, #FFF);
+
+/* regular-shadow/x-small */
+box-shadow: 0px 1px 2px 0px rgba(10, 13, 20, 0.03);
+}

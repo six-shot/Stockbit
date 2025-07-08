@@ -88,7 +88,7 @@ const StockCard = () => {
         </div>
 
         <div className="flex items-center gap-3 mt-[12px]">
-          <Button className="w-full flex-1" variant="default">
+          <Button className="w-full flex-1 rounded-[10px]" variant="default">
             Trade
           </Button>
           <Button
