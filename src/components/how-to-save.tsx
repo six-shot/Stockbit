@@ -10,7 +10,7 @@ export default function HowToSave() {
         </h2>
         <Image
           src="how-to-save.svg"
-          className='-mt-2'
+          className='md:-mt-2'
           width={1123}
           height={710}
           alt="how-to-save"
