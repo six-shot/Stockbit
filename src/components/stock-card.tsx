@@ -27,7 +27,9 @@ const StockCard = () => {
         {/* Price and change */}
         <div className="mb-6">
           <div className="flex justify-between items-center">
-            <div className="md:text-[25px] text-[20px] font-bold text-[#0E121B]">$175.43</div>
+            <div className="md:text-[25px] text-[20px] font-bold text-[#0E121B]">
+              $175.43
+            </div>
             <div className="ml-auto">
               <span className="text-[10px] text-[#3559E9] bg-[#EBF1FF] px-2 py-1.5 rounded-full font-medium">
                 STOCKS
@@ -60,10 +62,27 @@ const StockCard = () => {
             <span className="text-[10px] text-[#525866]">Performance</span>
             <span className="text-[10px] text-[#525866]">13%</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2 mt-[3px]">
+          <div className="w-full flex items-center h-2 mt-[3px] gap-[5px]">
+            {/* Filled part */}
             <div
-              className="bg-[#335CFF] h-2 rounded-full"
-              style={{ width: "13%" }}
+              className="bg-[#335CFF] h-2"
+              style={{
+                width: "13%",
+                borderTopLeftRadius: "9999px",
+                borderBottomLeftRadius: "9999px",
+                borderTopRightRadius: "9999px",
+                borderBottomRightRadius: "9999px",
+              }}
+            ></div>
+            {/* Empty part */}
+            <div
+              className="bg-[#335CFF1F] h-2 flex-1"
+              style={{
+                borderTopLeftRadius: "9999px",
+                borderBottomLeftRadius: "9999px",
+                borderTopRightRadius: "9999px",
+                borderBottomRightRadius: "9999px",
+              }}
             ></div>
           </div>
         </div>
