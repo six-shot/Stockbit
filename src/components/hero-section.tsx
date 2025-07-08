@@ -69,44 +69,45 @@ export default function HeroSection() {
                   <div className="flex">
                     <img
                       className="mx-auto w-fit "
-                      src="boltshift.svg"
-                      alt="boltshift Logo"
+                      src="circle.svg"
+                      alt="circle Logo"
                     />
                   </div>
 
                   <div className="flex">
                     <img
                       className="mx-auto w-fit "
-                      src="lightbox.svg"
-                      alt="Lightbox Logo"
-                    />
-                  </div>
-                  <div className="flex">
-                    <img
-                      className="mx-auto  w-fit "
-                      src="featherdev.svg"
-                      alt="Featherdev Logo"
+                      src="coinbase.svg"
+                      alt="coinbase Logo"
                     />
                   </div>
                   <div className="flex">
                     <img
                       className="mx-auto w-fit "
-                      src="spherule.svg"
-                      alt="Spherule Logo"
+                      src="amazon.svg"
+                      alt="amazon Logo"
                     />
                   </div>
                   <div className="flex">
                     <img
                       className="mx-auto  w-fit "
-                      src="globalbank.svg"
-                      alt="Global Logo"
+                      src="google.svg"
+                      alt="google Logo"
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <img
+                      className="mx-auto  w-fit "
+                      src="nasdaq.svg"
+                      alt="nasdaq Logo"
                     />
                   </div>
                   <div className="flex">
                     <img
                       className="mx-auto  w-fit "
-                      src="nietzche.svg"
-                      alt="Nietzche Logo"
+                      src="tytrading.svg"
+                      alt="tytrading Logo"
                     />
                   </div>
                 </InfiniteSlider>
