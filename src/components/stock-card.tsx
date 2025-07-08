@@ -18,14 +18,14 @@ const StockCard = () => {
             </span>
           </div>
           <div>
-            <h3 className="font-semibold text-gray-900 text-sm font-[family-name:var(--font-fig-tree)]">
+            <h3 className="font-semibold text-gray-900 text-sm font-[family-name:var(--font-cal-sans)]">
               AAPL
             </h3>
           </div>
         </div>
 
         {/* Price and change */}
-        <div className="mb-6">
+        <div className="mb-6 font-[family-name:var(--font-fig-tree)]">
           <div className="flex justify-between items-center">
             <div className="md:text-[25px] text-[20px] font-bold text-[#0E121B]">
               $175.43

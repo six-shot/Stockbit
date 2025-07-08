@@ -77,10 +77,10 @@ export default function Feautures2() {
               </div>
             </div>
             <div>
-              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-semibold mt-4">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-medium mt-4 font-[family-name:var(--font-cal-sans)]">
                 Permissionless Trading, 24/7
               </h4>
-              <p className="text-[#525866] md:text-base text-sm mt-2">
+              <p className="text-[#525866] md:text-base text-sm mt-2 font-[family-name:var(--font-fig-tree)]">
                 Experience true financial freedom by trading shares of
                 companies, properties, or bonds anytime, anywhere.{" "}
               </p>
@@ -89,10 +89,10 @@ export default function Feautures2() {
           <div>
             <StockCard />
             <div className="mt-4">
-              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-semibold mt-4">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-medium mt-4 font-[family-name:var(--font-cal-sans)]">
                 Fully On-Chain
               </h4>
-              <p className="text-[#525866] md:text-base text-sm mt-2">
+              <p className="text-[#525866] md:text-base text-sm mt-2  font-[family-name:var(--font-fig-tree)]">
                 By keeping everything on-chain, we guarantee transparency,
                 immutability, and trust in every transaction.
               </p>
@@ -101,10 +101,10 @@ export default function Feautures2() {
           <div className="">
             <SwapWidget />
             <div className="mt-4">
-              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-semibold mt-4">
+              <h4 className="md:text-[24px] text-[20px] text-[#0E121B] font-medium mt-4 font-[family-name:var(--font-cal-sans)]">
                 USDX is a high yield savings
               </h4>
-              <p className="text-[#525866] md:text-base text-sm mt-2">
+              <p className="text-[#525866] md:text-base text-sm mt-2 font-[family-name:var(--font-fig-tree)]">
                 The company behind USDT makes $20B per year. USDX is a
                 stablecoin just like USDT, but the profits are distributed back
                 to the users.
