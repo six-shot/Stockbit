@@ -62,7 +62,7 @@ export default function HeroSection() {
         <div className="max-w-[1440px] mx-auto">
           <div className="group relative  w-full md:px-8 px-5">
             <div className="flex flex-col items-center font-[family-name:var(--font-cal-sans)]">
-              <p className="text-[#475467] ">Built with</p>
+              <p className="text-[#475467] ">Integrated & Working with</p>
 
               <div className="relative pt-8 w-full">
                 <InfiniteSlider speedOnHover={20} speed={40} gap={32}>
