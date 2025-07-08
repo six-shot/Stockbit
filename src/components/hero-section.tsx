@@ -28,7 +28,7 @@ export default function HeroSection() {
             <br /> to Finance
           </h1>
           <p className="md:w-[564px] text-[#525866] leading-6 tracking-[0.27px] font-[family-name:var(--font-fig-tree)] md:text-[18px] text-base mt-4 md:text-left text-center">
-            Rockbit makes investing in tokenized stocks and real-world assets
+            Stockbit makes investing in tokenized stocks and real-world assets
             accessible, secure, and DeFi-native. Built for everyone backed by
             blockchain.
           </p>

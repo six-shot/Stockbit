@@ -9,7 +9,7 @@ import Logo from "./logo";
 
 const menuItems = [
   { name: "Home", href: "/" },
-  { name: "Dashboard", href: "/dashboard" },
+  { name: "Dashboard", href: "https://rock-bit-nine.vercel.app" },
   { name: "Pricing", href: "/pricing" },
 ];
 
@@ -51,8 +51,9 @@ export const HeroHeader = () => {
                 {menuItems.map((item, index) => (
                   <li key={index}>
                     <Link
+               
                       href={item.href}
-                      className={` hover:text-accent-foreground block duration-150 font-medium ${
+                      className={` hover:text-[#0E121B] block duration-150 font-medium ${
                         pathname === item.href
                           ? "text-[#0E121B]"
                           : "text-[#525866]"

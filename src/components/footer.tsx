@@ -27,7 +27,7 @@ export default function Footer() {
           <Image src="facebook.svg" width={24} height={24} alt="facebook" />
         </div>
         <h5 className="text-[#0E121B] md:mt-0 mt-6">
-          © 2077 Rockkbit. All rights reserved.
+          © 2025 Stockbit. All rights reserved.
         </h5>
       </div>
     </div>
